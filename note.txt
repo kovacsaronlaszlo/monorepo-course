@@ -1,0 +1,21 @@
+monorepo vs polyrepos
+
+monorepo:
+- code sharing
+- unifiedd development experience
+- atomic changes
+- simplified CI/CD
+
+polyrepo:
+- isolate development
+- simplified access control
+- focus
+
+install nx globaly: npm i -g nx
+
+install nx workspace (new project)
+sudo npx create-nx-workspace@latest my-workspace
+
+normal folders which you can find in a nx workspace:
+apps, libs, tools
+nx.json has athe basics os configuration of project
