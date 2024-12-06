@@ -17,5 +17,10 @@ install nx workspace (new project)
 sudo npx create-nx-workspace@latest my-workspace
 
 normal folders which you can find in a nx workspace:
-apps, libs, tools
+apps, libs (to store share libaries and reusable code), tools
 nx.json has athe basics os configuration of project
+
+
+about nx configuration:
+https://nx.dev/reference/nx-json
+
