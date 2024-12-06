@@ -2,7 +2,12 @@
   "name": "@my-workspace/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "nx": "sudo nx",
+    "start": "sudo nx serve",
+    "build": "sudo nx build",
+    "test": "nx test"
+  },
   "private": true,
   "dependencies": {},
   "devDependencies": {
